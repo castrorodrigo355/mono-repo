@@ -1,0 +1,89 @@
+.navbar--main--container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 0.5px solid rgb(225, 216, 216);
+	height: 75px;
+	z-index: 100;
+	background: white;
+}
+
+.navbar--main--container--company {
+	display: flex;
+	height: 100%;
+	cursor: pointer;
+}
+
+.navbar--main--container--company--image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	padding: 0 20px;
+}
+
+.navbar--main--container--company--image--logo {
+	height: 95px;
+	width: 135px;
+}
+
+.navbar--main--container--company--routes {
+	display: flex;
+	height: 100%;
+}
+
+.navbar--main--container--user {
+	display: flex;
+	height: 100%;
+	padding: 0 20px;
+}
+
+.navbar--main--container--user--name {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	color: #645faa;
+}
+
+.navbar--main--container--user--icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	padding: 0 15px;
+	cursor: pointer;
+}
+
+.navbar--main--container--user--options {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	cursor: pointer;
+	position: relative;
+}
+
+.navbar--main--container--user--options--list {
+	position: absolute;
+	bottom: -43px;
+	right: -5px;
+	width: 180px;
+	z-index: 2000;
+	background: rgb(242, 240, 240);
+	border: 0.5px solid rgb(194, 192, 192);
+}
+
+.navbar--main--container--company--routes--item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+	background: white;
+	color: #645faa;
+}

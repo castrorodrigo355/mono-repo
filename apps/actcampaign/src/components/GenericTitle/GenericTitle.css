@@ -1,0 +1,19 @@
+.generic--title--main--container {
+	/* font-family: Mulish; */
+	position: relative;
+	font-size: 18px;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+
+.generic--title--main--container--option {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 14px;
+	font-weight: 400;
+	padding-top: 3px;
+	color: #645faa;
+	text-decoration: underline;
+	cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.creator--element--main--container {
+	font-size: 15px;
+	white-space: nowrap;
+	color: #645faa;
+	border: 0.5px solid #645faa;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+@media (min-width: 451px) {
+	.creator--element--main--container {
+		padding: 10px 15px;
+		margin: 5px 0;
+	}
+}
+
+@media (max-width: 450px) {
+	.creator--element--main--container {
+		margin: 0 5px 0 0;
+		padding: 10px 15px;
+	}
+}

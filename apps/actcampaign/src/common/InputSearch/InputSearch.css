@@ -1,0 +1,38 @@
+.input--search--main--container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 30px;
+	width: 250px;
+	border-radius: 20px;
+	border: 0.5px solid gray;
+	overflow: hidden;
+}
+
+.input--search--main--container--text {
+	width: calc(100% - 60px);
+	height: 100%;
+}
+
+.input--search--main--container--text--input {
+	width: 100%;
+	height: 80%;
+	border: none;
+	outline: none;
+	padding-left: 10px;
+	color: #645faa;
+}
+
+.input--search--main--container--text--input::placeholder {
+	color: #645faa;
+	text-align: end;
+}
+
+.input--search--main--container--loop {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 50px;
+}

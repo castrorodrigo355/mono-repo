@@ -1,0 +1,36 @@
+.router--styles--main--container {
+	position: relative;
+	height: 100vh;
+}
+
+.router--styles--main--container--views {
+	height: 100%;
+}
+
+.router--styles--main--container--views.mobile--views {
+	height: 100%;
+	padding: 0 !important;
+}
+
+.router--styles--main--container--navbar {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.router--styles--main--container--bottom--nav {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 60px;
+	width: 100%;
+	border-top-left-radius: 35px;
+	border-top-right-radius: 35px;
+	transition: all 0.3s;
+	overflow: hidden;
+	z-index: 1000;
+}
+
+.router--styles--main--container--bottom--nav.open--bottom--nav {
+	bottom: 0;
+}

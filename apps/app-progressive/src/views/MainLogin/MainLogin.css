@@ -1,0 +1,34 @@
+.main--login--main--container {
+	height: 100%;
+	width: 100%;
+	color: white;
+	position: relative;
+	background: #8e2de2;
+	background: -webkit-linear-gradient(to right, #3905a1, #b31bda);
+	background: linear-gradient(to right, #3905a1, #b31bda);
+}
+
+.main--login--main--container--company {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 5rem;
+}
+
+.main--login--main--container--company > img {
+	margin: 0.5rem 0;
+}
+
+.main--login--main--container--blank--bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 50%;
+	width: 100%;
+}
+
+.main--login--main--container--blank--bottom--element {
+	margin: 25px 0;
+}

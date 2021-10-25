@@ -1,0 +1,12 @@
+.user--icon--main--container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 25px;
+	width: 25px;
+	background: #cbc9e7;
+	border: 2px solid #645faa;
+	box-sizing: border-box;
+	backdrop-filter: blur(4px);
+	border-radius: 10px;
+}

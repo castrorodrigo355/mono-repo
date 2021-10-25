@@ -1,0 +1,42 @@
+.episode--reproduce--container--view--data {
+	height: 250px;
+	width: 250px;
+}
+
+.episode--reproduce--container--view--data--image {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.episode--reproduce--container--view--title {
+	/* font-family: Mulish; */
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: center;
+	margin: 5px 0;
+}
+
+.episode--reproduce--container--view--index {
+	/* font-family: Mulish; */
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 15px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+.episode--reproduce--container--view--creator {
+	/* font-family: Mulish; */
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 15px;
+	letter-spacing: 0em;
+	text-align: center;
+	margin: 5px 0;
+}

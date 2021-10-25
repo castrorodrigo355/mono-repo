@@ -1,0 +1,32 @@
+.input--text--main {
+	width: 285px;
+	padding: 5px;
+}
+
+.input--text--main:focus-within .input--text--main--label {
+	color: #3409cfcc;
+}
+
+.input--text--main--label {
+	color: #aaaaac;
+	font-size: 12px;
+	font-weight: 400;
+	padding-left: 10px;
+}
+
+.input--text--main--input {
+	height: 51px;
+	border-radius: 7px;
+	width: 95%;
+	color: #aaaaac;
+	border: 1px solid #aaaaac;
+	background: transparent;
+	outline: none;
+	margin: 5px 0;
+	padding-left: 8px;
+}
+
+.input--text--main--input:focus {
+	color: #3409cfcc;
+	border: 1px solid #3409cfcc;
+}

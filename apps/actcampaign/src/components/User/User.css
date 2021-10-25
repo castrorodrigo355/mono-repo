@@ -1,0 +1,34 @@
+.user--main--container {
+	height: 100%;
+	width: 100%;
+	background: rgba(100, 95, 170, 0.8);
+	color: white;
+	text-align: center;
+}
+
+.user--main--container--name {
+	/* font-family: Mulish; */
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	padding: 15px 0 5px 0;
+	letter-spacing: 0em;
+}
+
+.user--main--container--email {
+	/* font-family: Mulish; */
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 600;
+	padding: 5px 0;
+	letter-spacing: 0em;
+}
+
+.user--main--container--logout {
+	/* font-family: Mulish; */
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 700;
+	padding: 20px 0;
+	letter-spacing: 0em;
+}

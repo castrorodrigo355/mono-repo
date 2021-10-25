@@ -1,0 +1,77 @@
+.client--login--main--container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 100%;
+	width: 100%;
+	color: white;
+	position: relative;
+	background: #1a2a6c;
+	background: -webkit-linear-gradient(
+		45deg,
+		#1804f5,
+		#1804f5,
+		#3220f2,
+		#4f40ed,
+		#7b71ed,
+		#aca5f4,
+		#dad8f7,
+		#edecf9
+	);
+	background: linear-gradient(
+		45deg,
+		#1804f5,
+		#1804f5,
+		#3220f2,
+		#4f40ed,
+		#7b71ed,
+		#aca5f4,
+		#dad8f7,
+		#edecf9
+	);
+}
+
+.client--login--main--container--company {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	/* top: 5rem; */
+}
+
+.client--login--main--container--blank--bottom {
+	/* position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 50%;
+	width: 100%; */
+	min-width: 500px;
+}
+
+.client--login--main--container--blank--bottom--element {
+	margin: 4rem 0;
+	color: #645faa;
+}
+
+@media (max-width: 450px) {
+	.client--login--main--container {
+		justify-content: flex-start;
+		padding-top: 10rem;
+	}
+
+	.client--login--main--container--company--image {
+		padding-top: 5rem;
+	}
+
+	.client--login--main--container--blank--bottom {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		height: 50%;
+		width: 100%;
+		min-width: 0;
+		padding: 0 !important;
+	}
+}

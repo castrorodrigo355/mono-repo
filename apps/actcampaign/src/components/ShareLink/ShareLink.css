@@ -1,0 +1,25 @@
+.share--link--main--container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	height: 35px;
+	width: 188px;
+	border-radius: 25.5px;
+	border: 1px solid #645faa;
+	box-sizing: border-box;
+	border-radius: 25.5px;
+	background: transparent;
+	outline: none;
+	cursor: pointer;
+}
+
+.share--link--main--container--logo {
+	padding: 0 8px;
+}
+
+.share--link--main--container--text {
+	/* font-family: Mulish; */
+	font-size: 14px;
+	color: #645faa;
+}
